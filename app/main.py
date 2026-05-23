@@ -1,6 +1,9 @@
 import time
 import uuid
 
+from app.strategies.adaptive import adaptive_strategy
+from app.services.stats_manager import get_all_stats
+
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from typing import List, Optional
@@ -35,7 +38,7 @@ async def aggregate(request: AggregateRequest):
     total_start = time.perf_counter()
 
     # =========================
-    # ВЫБОР СТРАТЕГИИ
+    # FIXED
     # =========================
 
     if request.strategy == "fixed":
@@ -46,6 +49,10 @@ async def aggregate(request: AggregateRequest):
             timeout_sec=request.timeout_sec
         )
 
+    # =========================
+    # TIMEOUT RACE
+    # =========================
+
     elif request.strategy == "timeout_race":
 
         results = await timeout_race_strategy(
@@ -53,7 +60,20 @@ async def aggregate(request: AggregateRequest):
             timeout_sec=request.timeout_sec
         )
 
+    # =========================
+    # ADAPTIVE
+    # =========================
+
+    elif request.strategy == "adaptive":
+
+        results = await adaptive_strategy(
+            urls=request.urls,
+            initial_concurrent=request.max_concurrent,
+            timeout_sec=request.timeout_sec
+        )
+
     else:
+
         raise HTTPException(
             status_code=400,
             detail=f"Unknown strategy: {request.strategy}"
@@ -74,7 +94,7 @@ async def aggregate(request: AggregateRequest):
 
     failed = len(results) - successful
 
-    return {
+    response = {
         "request_id": request_id,
         "results": results,
         "summary": {
@@ -86,3 +106,10 @@ async def aggregate(request: AggregateRequest):
             "concurrent_used": request.max_concurrent
         }
     }
+
+    # Только для adaptive
+    if request.strategy == "adaptive":
+
+        response["adaptive_stats"] = get_all_stats()
+
+    return response
