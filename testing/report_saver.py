@@ -8,7 +8,7 @@ def save_reports(results, output_dir):
     os.makedirs(output_dir, exist_ok=True)
 
     # =========================
-    # JSON
+    # JSON REPORT
     # =========================
 
     json_path = os.path.join(
@@ -20,7 +20,7 @@ def save_reports(results, output_dir):
         json.dump(results, f, indent=4)
 
     # =========================
-    # CSV
+    # CSV REPORT
     # =========================
 
     rows = []
@@ -36,6 +36,22 @@ def save_reports(results, output_dir):
             "timeouts": item["metrics"]["timeouts"],
             "total_time_ms": item["metrics"]["total_time_ms"]
         }
+
+        # =========================
+        # ADAPTIVE STATS
+        # =========================
+
+        if "adaptive_stats" in item:
+
+            for host, stats in item["adaptive_stats"].items():
+
+                column_name = (
+                    f"{host}_concurrency"
+                )
+
+                row[column_name] = (
+                    stats["adjusted_concurrency"]
+                )
 
         rows.append(row)
 

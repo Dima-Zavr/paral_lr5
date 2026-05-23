@@ -8,7 +8,7 @@
             "successful": 3,
             "failed": 0,
             "timeouts": 0,
-            "total_time_ms": 163
+            "total_time_ms": 197
         }
     },
     {
@@ -20,7 +20,7 @@
             "successful": 3,
             "failed": 0,
             "timeouts": 0,
-            "total_time_ms": 178
+            "total_time_ms": 175
         }
     },
     {
@@ -32,73 +32,13 @@
             "successful": 3,
             "failed": 0,
             "timeouts": 0,
-            "total_time_ms": 189
+            "total_time_ms": 184
         }
     },
     {
         "scenario": "A",
         "strategy": "fixed",
         "iteration": 4,
-        "metrics": {
-            "total_requests": 3,
-            "successful": 3,
-            "failed": 0,
-            "timeouts": 0,
-            "total_time_ms": 200
-        }
-    },
-    {
-        "scenario": "A",
-        "strategy": "fixed",
-        "iteration": 5,
-        "metrics": {
-            "total_requests": 3,
-            "successful": 3,
-            "failed": 0,
-            "timeouts": 0,
-            "total_time_ms": 200
-        }
-    },
-    {
-        "scenario": "A",
-        "strategy": "fixed",
-        "iteration": 6,
-        "metrics": {
-            "total_requests": 3,
-            "successful": 3,
-            "failed": 0,
-            "timeouts": 0,
-            "total_time_ms": 185
-        }
-    },
-    {
-        "scenario": "A",
-        "strategy": "fixed",
-        "iteration": 7,
-        "metrics": {
-            "total_requests": 3,
-            "successful": 3,
-            "failed": 0,
-            "timeouts": 0,
-            "total_time_ms": 149
-        }
-    },
-    {
-        "scenario": "A",
-        "strategy": "fixed",
-        "iteration": 8,
-        "metrics": {
-            "total_requests": 3,
-            "successful": 3,
-            "failed": 0,
-            "timeouts": 0,
-            "total_time_ms": 168
-        }
-    },
-    {
-        "scenario": "A",
-        "strategy": "fixed",
-        "iteration": 9,
         "metrics": {
             "total_requests": 3,
             "successful": 3,
@@ -110,13 +50,73 @@
     {
         "scenario": "A",
         "strategy": "fixed",
+        "iteration": 5,
+        "metrics": {
+            "total_requests": 3,
+            "successful": 3,
+            "failed": 0,
+            "timeouts": 0,
+            "total_time_ms": 160
+        }
+    },
+    {
+        "scenario": "A",
+        "strategy": "fixed",
+        "iteration": 6,
+        "metrics": {
+            "total_requests": 3,
+            "successful": 3,
+            "failed": 0,
+            "timeouts": 0,
+            "total_time_ms": 144
+        }
+    },
+    {
+        "scenario": "A",
+        "strategy": "fixed",
+        "iteration": 7,
+        "metrics": {
+            "total_requests": 3,
+            "successful": 3,
+            "failed": 0,
+            "timeouts": 0,
+            "total_time_ms": 184
+        }
+    },
+    {
+        "scenario": "A",
+        "strategy": "fixed",
+        "iteration": 8,
+        "metrics": {
+            "total_requests": 3,
+            "successful": 3,
+            "failed": 0,
+            "timeouts": 0,
+            "total_time_ms": 207
+        }
+    },
+    {
+        "scenario": "A",
+        "strategy": "fixed",
+        "iteration": 9,
+        "metrics": {
+            "total_requests": 3,
+            "successful": 3,
+            "failed": 0,
+            "timeouts": 0,
+            "total_time_ms": 175
+        }
+    },
+    {
+        "scenario": "A",
+        "strategy": "fixed",
         "iteration": 10,
         "metrics": {
             "total_requests": 3,
             "successful": 3,
             "failed": 0,
             "timeouts": 0,
-            "total_time_ms": 170
+            "total_time_ms": 97
         }
     },
     {
@@ -128,7 +128,7 @@
             "successful": 3,
             "failed": 0,
             "timeouts": 0,
-            "total_time_ms": 161
+            "total_time_ms": 210
         }
     },
     {
@@ -140,7 +140,7 @@
             "successful": 3,
             "failed": 0,
             "timeouts": 0,
-            "total_time_ms": 205
+            "total_time_ms": 190
         }
     },
     {
@@ -152,7 +152,7 @@
             "successful": 3,
             "failed": 0,
             "timeouts": 0,
-            "total_time_ms": 190
+            "total_time_ms": 182
         }
     },
     {
@@ -164,61 +164,13 @@
             "successful": 3,
             "failed": 0,
             "timeouts": 0,
-            "total_time_ms": 163
+            "total_time_ms": 169
         }
     },
     {
         "scenario": "A",
         "strategy": "timeout_race",
         "iteration": 5,
-        "metrics": {
-            "total_requests": 3,
-            "successful": 3,
-            "failed": 0,
-            "timeouts": 0,
-            "total_time_ms": 134
-        }
-    },
-    {
-        "scenario": "A",
-        "strategy": "timeout_race",
-        "iteration": 6,
-        "metrics": {
-            "total_requests": 3,
-            "successful": 3,
-            "failed": 0,
-            "timeouts": 0,
-            "total_time_ms": 204
-        }
-    },
-    {
-        "scenario": "A",
-        "strategy": "timeout_race",
-        "iteration": 7,
-        "metrics": {
-            "total_requests": 3,
-            "successful": 3,
-            "failed": 0,
-            "timeouts": 0,
-            "total_time_ms": 174
-        }
-    },
-    {
-        "scenario": "A",
-        "strategy": "timeout_race",
-        "iteration": 8,
-        "metrics": {
-            "total_requests": 3,
-            "successful": 3,
-            "failed": 0,
-            "timeouts": 0,
-            "total_time_ms": 190
-        }
-    },
-    {
-        "scenario": "A",
-        "strategy": "timeout_race",
-        "iteration": 9,
         "metrics": {
             "total_requests": 3,
             "successful": 3,
@@ -230,13 +182,61 @@
     {
         "scenario": "A",
         "strategy": "timeout_race",
+        "iteration": 6,
+        "metrics": {
+            "total_requests": 3,
+            "successful": 3,
+            "failed": 0,
+            "timeouts": 0,
+            "total_time_ms": 176
+        }
+    },
+    {
+        "scenario": "A",
+        "strategy": "timeout_race",
+        "iteration": 7,
+        "metrics": {
+            "total_requests": 3,
+            "successful": 3,
+            "failed": 0,
+            "timeouts": 0,
+            "total_time_ms": 191
+        }
+    },
+    {
+        "scenario": "A",
+        "strategy": "timeout_race",
+        "iteration": 8,
+        "metrics": {
+            "total_requests": 3,
+            "successful": 3,
+            "failed": 0,
+            "timeouts": 0,
+            "total_time_ms": 120
+        }
+    },
+    {
+        "scenario": "A",
+        "strategy": "timeout_race",
+        "iteration": 9,
+        "metrics": {
+            "total_requests": 3,
+            "successful": 3,
+            "failed": 0,
+            "timeouts": 0,
+            "total_time_ms": 174
+        }
+    },
+    {
+        "scenario": "A",
+        "strategy": "timeout_race",
         "iteration": 10,
         "metrics": {
             "total_requests": 3,
             "successful": 3,
             "failed": 0,
             "timeouts": 0,
-            "total_time_ms": 171
+            "total_time_ms": 128
         }
     },
     {
@@ -248,12 +248,12 @@
             "successful": 3,
             "failed": 0,
             "timeouts": 0,
-            "total_time_ms": 166
+            "total_time_ms": 159
         },
         "adaptive_stats": {
             "127.0.0.1:9001": {
                 "success_rate": 1.0,
-                "avg_ms": 106.33,
+                "avg_ms": 138.0,
                 "adjusted_concurrency": 3
             }
         }
@@ -267,12 +267,12 @@
             "successful": 3,
             "failed": 0,
             "timeouts": 0,
-            "total_time_ms": 186
+            "total_time_ms": 183
         },
         "adaptive_stats": {
             "127.0.0.1:9001": {
                 "success_rate": 1.0,
-                "avg_ms": 128.83,
+                "avg_ms": 130.0,
                 "adjusted_concurrency": 3
             }
         }
@@ -286,12 +286,12 @@
             "successful": 3,
             "failed": 0,
             "timeouts": 0,
-            "total_time_ms": 194
+            "total_time_ms": 143
         },
         "adaptive_stats": {
             "127.0.0.1:9001": {
                 "success_rate": 1.0,
-                "avg_ms": 144.22,
+                "avg_ms": 122.89,
                 "adjusted_concurrency": 3
             }
         }
@@ -305,12 +305,12 @@
             "successful": 3,
             "failed": 0,
             "timeouts": 0,
-            "total_time_ms": 176
+            "total_time_ms": 206
         },
         "adaptive_stats": {
             "127.0.0.1:9001": {
                 "success_rate": 1.0,
-                "avg_ms": 135.67,
+                "avg_ms": 121.42,
                 "adjusted_concurrency": 3
             }
         }
@@ -324,12 +324,12 @@
             "successful": 3,
             "failed": 0,
             "timeouts": 0,
-            "total_time_ms": 184
+            "total_time_ms": 215
         },
         "adaptive_stats": {
             "127.0.0.1:9001": {
                 "success_rate": 1.0,
-                "avg_ms": 133.13,
+                "avg_ms": 123.27,
                 "adjusted_concurrency": 3
             }
         }
@@ -343,12 +343,12 @@
             "successful": 3,
             "failed": 0,
             "timeouts": 0,
-            "total_time_ms": 143
+            "total_time_ms": 173
         },
         "adaptive_stats": {
             "127.0.0.1:9001": {
                 "success_rate": 1.0,
-                "avg_ms": 132.67,
+                "avg_ms": 126.0,
                 "adjusted_concurrency": 3
             }
         }
@@ -362,12 +362,12 @@
             "successful": 3,
             "failed": 0,
             "timeouts": 0,
-            "total_time_ms": 188
+            "total_time_ms": 196
         },
         "adaptive_stats": {
             "127.0.0.1:9001": {
                 "success_rate": 1.0,
-                "avg_ms": 139.6,
+                "avg_ms": 134.8,
                 "adjusted_concurrency": 3
             }
         }
@@ -381,12 +381,12 @@
             "successful": 3,
             "failed": 0,
             "timeouts": 0,
-            "total_time_ms": 96
+            "total_time_ms": 128
         },
         "adaptive_stats": {
             "127.0.0.1:9001": {
                 "success_rate": 1.0,
-                "avg_ms": 134.6,
+                "avg_ms": 134.15,
                 "adjusted_concurrency": 3
             }
         }
@@ -400,12 +400,12 @@
             "successful": 3,
             "failed": 0,
             "timeouts": 0,
-            "total_time_ms": 199
+            "total_time_ms": 143
         },
         "adaptive_stats": {
             "127.0.0.1:9001": {
                 "success_rate": 1.0,
-                "avg_ms": 132.7,
+                "avg_ms": 133.7,
                 "adjusted_concurrency": 3
             }
         }
@@ -419,12 +419,12 @@
             "successful": 3,
             "failed": 0,
             "timeouts": 0,
-            "total_time_ms": 166
+            "total_time_ms": 159
         },
         "adaptive_stats": {
             "127.0.0.1:9001": {
                 "success_rate": 1.0,
-                "avg_ms": 129.5,
+                "avg_ms": 133.35,
                 "adjusted_concurrency": 3
             }
         }
@@ -433,30 +433,6 @@
         "scenario": "B",
         "strategy": "fixed",
         "iteration": 1,
-        "metrics": {
-            "total_requests": 3,
-            "successful": 2,
-            "failed": 1,
-            "timeouts": 1,
-            "total_time_ms": 2000
-        }
-    },
-    {
-        "scenario": "B",
-        "strategy": "fixed",
-        "iteration": 2,
-        "metrics": {
-            "total_requests": 3,
-            "successful": 2,
-            "failed": 1,
-            "timeouts": 1,
-            "total_time_ms": 1999
-        }
-    },
-    {
-        "scenario": "B",
-        "strategy": "fixed",
-        "iteration": 3,
         "metrics": {
             "total_requests": 3,
             "successful": 2,
@@ -468,13 +444,37 @@
     {
         "scenario": "B",
         "strategy": "fixed",
+        "iteration": 2,
+        "metrics": {
+            "total_requests": 3,
+            "successful": 2,
+            "failed": 1,
+            "timeouts": 1,
+            "total_time_ms": 1988
+        }
+    },
+    {
+        "scenario": "B",
+        "strategy": "fixed",
+        "iteration": 3,
+        "metrics": {
+            "total_requests": 3,
+            "successful": 2,
+            "failed": 1,
+            "timeouts": 1,
+            "total_time_ms": 2001
+        }
+    },
+    {
+        "scenario": "B",
+        "strategy": "fixed",
         "iteration": 4,
         "metrics": {
             "total_requests": 3,
             "successful": 2,
             "failed": 1,
             "timeouts": 1,
-            "total_time_ms": 2002
+            "total_time_ms": 2000
         }
     },
     {
@@ -486,7 +486,7 @@
             "successful": 2,
             "failed": 1,
             "timeouts": 1,
-            "total_time_ms": 2014
+            "total_time_ms": 2007
         }
     },
     {
@@ -498,7 +498,7 @@
             "successful": 2,
             "failed": 1,
             "timeouts": 1,
-            "total_time_ms": 2019
+            "total_time_ms": 2001
         }
     },
     {
@@ -510,7 +510,7 @@
             "successful": 2,
             "failed": 1,
             "timeouts": 1,
-            "total_time_ms": 1999
+            "total_time_ms": 2004
         }
     },
     {
@@ -522,7 +522,7 @@
             "successful": 2,
             "failed": 1,
             "timeouts": 1,
-            "total_time_ms": 1999
+            "total_time_ms": 1994
         }
     },
     {
@@ -534,7 +534,7 @@
             "successful": 2,
             "failed": 1,
             "timeouts": 1,
-            "total_time_ms": 1996
+            "total_time_ms": 1993
         }
     },
     {
@@ -546,7 +546,7 @@
             "successful": 2,
             "failed": 1,
             "timeouts": 1,
-            "total_time_ms": 1992
+            "total_time_ms": 1997
         }
     },
     {
@@ -558,7 +558,7 @@
             "successful": 2,
             "failed": 1,
             "timeouts": 1,
-            "total_time_ms": 1987
+            "total_time_ms": 2007
         }
     },
     {
@@ -570,7 +570,7 @@
             "successful": 2,
             "failed": 1,
             "timeouts": 1,
-            "total_time_ms": 1998
+            "total_time_ms": 2000
         }
     },
     {
@@ -582,7 +582,7 @@
             "successful": 2,
             "failed": 1,
             "timeouts": 1,
-            "total_time_ms": 2002
+            "total_time_ms": 2000
         }
     },
     {
@@ -594,7 +594,7 @@
             "successful": 2,
             "failed": 1,
             "timeouts": 1,
-            "total_time_ms": 2005
+            "total_time_ms": 2018
         }
     },
     {
@@ -606,7 +606,7 @@
             "successful": 2,
             "failed": 1,
             "timeouts": 1,
-            "total_time_ms": 2004
+            "total_time_ms": 1991
         }
     },
     {
@@ -618,7 +618,7 @@
             "successful": 2,
             "failed": 1,
             "timeouts": 1,
-            "total_time_ms": 2006
+            "total_time_ms": 2000
         }
     },
     {
@@ -642,7 +642,7 @@
             "successful": 2,
             "failed": 1,
             "timeouts": 1,
-            "total_time_ms": 2004
+            "total_time_ms": 1995
         }
     },
     {
@@ -654,7 +654,7 @@
             "successful": 2,
             "failed": 1,
             "timeouts": 1,
-            "total_time_ms": 2013
+            "total_time_ms": 2005
         }
     },
     {
@@ -666,61 +666,13 @@
             "successful": 2,
             "failed": 1,
             "timeouts": 1,
-            "total_time_ms": 2004
+            "total_time_ms": 2014
         }
     },
     {
         "scenario": "B",
         "strategy": "adaptive",
         "iteration": 1,
-        "metrics": {
-            "total_requests": 3,
-            "successful": 2,
-            "failed": 1,
-            "timeouts": 1,
-            "total_time_ms": 2113
-        },
-        "adaptive_stats": {
-            "127.0.0.1:9001": {
-                "success_rate": 1.0,
-                "avg_ms": 127.4,
-                "adjusted_concurrency": 3
-            },
-            "127.0.0.1:9002": {
-                "success_rate": 0.0,
-                "avg_ms": 2005.0,
-                "adjusted_concurrency": 2
-            }
-        }
-    },
-    {
-        "scenario": "B",
-        "strategy": "adaptive",
-        "iteration": 2,
-        "metrics": {
-            "total_requests": 3,
-            "successful": 2,
-            "failed": 1,
-            "timeouts": 1,
-            "total_time_ms": 2108
-        },
-        "adaptive_stats": {
-            "127.0.0.1:9001": {
-                "success_rate": 1.0,
-                "avg_ms": 127.3,
-                "adjusted_concurrency": 3
-            },
-            "127.0.0.1:9002": {
-                "success_rate": 0.0,
-                "avg_ms": 2009.0,
-                "adjusted_concurrency": 1
-            }
-        }
-    },
-    {
-        "scenario": "B",
-        "strategy": "adaptive",
-        "iteration": 3,
         "metrics": {
             "total_requests": 3,
             "successful": 2,
@@ -731,12 +683,60 @@
         "adaptive_stats": {
             "127.0.0.1:9001": {
                 "success_rate": 1.0,
-                "avg_ms": 124.4,
+                "avg_ms": 134.1,
                 "adjusted_concurrency": 3
             },
             "127.0.0.1:9002": {
                 "success_rate": 0.0,
-                "avg_ms": 2006.0,
+                "avg_ms": 1989.0,
+                "adjusted_concurrency": 2
+            }
+        }
+    },
+    {
+        "scenario": "B",
+        "strategy": "adaptive",
+        "iteration": 2,
+        "metrics": {
+            "total_requests": 3,
+            "successful": 2,
+            "failed": 1,
+            "timeouts": 1,
+            "total_time_ms": 2123
+        },
+        "adaptive_stats": {
+            "127.0.0.1:9001": {
+                "success_rate": 1.0,
+                "avg_ms": 133.95,
+                "adjusted_concurrency": 3
+            },
+            "127.0.0.1:9002": {
+                "success_rate": 0.0,
+                "avg_ms": 1997.0,
+                "adjusted_concurrency": 1
+            }
+        }
+    },
+    {
+        "scenario": "B",
+        "strategy": "adaptive",
+        "iteration": 3,
+        "metrics": {
+            "total_requests": 3,
+            "successful": 2,
+            "failed": 1,
+            "timeouts": 1,
+            "total_time_ms": 2233
+        },
+        "adaptive_stats": {
+            "127.0.0.1:9001": {
+                "success_rate": 1.0,
+                "avg_ms": 131.7,
+                "adjusted_concurrency": 3
+            },
+            "127.0.0.1:9002": {
+                "success_rate": 0.0,
+                "avg_ms": 2003.67,
                 "adjusted_concurrency": 1
             }
         }
@@ -750,17 +750,17 @@
             "successful": 2,
             "failed": 1,
             "timeouts": 1,
-            "total_time_ms": 2173
+            "total_time_ms": 2131
         },
         "adaptive_stats": {
             "127.0.0.1:9001": {
                 "success_rate": 1.0,
-                "avg_ms": 125.9,
+                "avg_ms": 127.9,
                 "adjusted_concurrency": 3
             },
             "127.0.0.1:9002": {
                 "success_rate": 0.0,
-                "avg_ms": 2008.25,
+                "avg_ms": 2003.25,
                 "adjusted_concurrency": 1
             }
         }
@@ -774,17 +774,17 @@
             "successful": 2,
             "failed": 1,
             "timeouts": 1,
-            "total_time_ms": 2189
+            "total_time_ms": 2182
         },
         "adaptive_stats": {
             "127.0.0.1:9001": {
                 "success_rate": 1.0,
-                "avg_ms": 127.6,
+                "avg_ms": 128.45,
                 "adjusted_concurrency": 3
             },
             "127.0.0.1:9002": {
                 "success_rate": 0.0,
-                "avg_ms": 2003.6,
+                "avg_ms": 2000.8,
                 "adjusted_concurrency": 1
             }
         }
@@ -798,17 +798,17 @@
             "successful": 2,
             "failed": 1,
             "timeouts": 1,
-            "total_time_ms": 2073
+            "total_time_ms": 2183
         },
         "adaptive_stats": {
             "127.0.0.1:9001": {
                 "success_rate": 1.0,
-                "avg_ms": 123.2,
+                "avg_ms": 127.45,
                 "adjusted_concurrency": 3
             },
             "127.0.0.1:9002": {
                 "success_rate": 0.0,
-                "avg_ms": 2001.5,
+                "avg_ms": 2003.17,
                 "adjusted_concurrency": 1
             }
         }
@@ -822,17 +822,17 @@
             "successful": 2,
             "failed": 1,
             "timeouts": 1,
-            "total_time_ms": 2184
+            "total_time_ms": 2177
         },
         "adaptive_stats": {
             "127.0.0.1:9001": {
                 "success_rate": 1.0,
-                "avg_ms": 130.45,
+                "avg_ms": 130.65,
                 "adjusted_concurrency": 3
             },
             "127.0.0.1:9002": {
                 "success_rate": 0.0,
-                "avg_ms": 2000.0,
+                "avg_ms": 2001.71,
                 "adjusted_concurrency": 1
             }
         }
@@ -846,17 +846,17 @@
             "successful": 2,
             "failed": 1,
             "timeouts": 1,
-            "total_time_ms": 2097
+            "total_time_ms": 2176
         },
         "adaptive_stats": {
             "127.0.0.1:9001": {
                 "success_rate": 1.0,
-                "avg_ms": 127.95,
+                "avg_ms": 134.55,
                 "adjusted_concurrency": 3
             },
             "127.0.0.1:9002": {
                 "success_rate": 0.0,
-                "avg_ms": 1999.5,
+                "avg_ms": 2001.38,
                 "adjusted_concurrency": 1
             }
         }
@@ -870,17 +870,17 @@
             "successful": 2,
             "failed": 1,
             "timeouts": 1,
-            "total_time_ms": 2130
+            "total_time_ms": 2205
         },
         "adaptive_stats": {
             "127.0.0.1:9001": {
                 "success_rate": 1.0,
-                "avg_ms": 122.35,
+                "avg_ms": 140.4,
                 "adjusted_concurrency": 3
             },
             "127.0.0.1:9002": {
                 "success_rate": 0.0,
-                "avg_ms": 2001.0,
+                "avg_ms": 2002.89,
                 "adjusted_concurrency": 1
             }
         }
@@ -894,17 +894,17 @@
             "successful": 2,
             "failed": 1,
             "timeouts": 1,
-            "total_time_ms": 2138
+            "total_time_ms": 2081
         },
         "adaptive_stats": {
             "127.0.0.1:9001": {
                 "success_rate": 1.0,
-                "avg_ms": 117.9,
+                "avg_ms": 135.25,
                 "adjusted_concurrency": 3
             },
             "127.0.0.1:9002": {
                 "success_rate": 0.0,
-                "avg_ms": 2001.4,
+                "avg_ms": 2002.7,
                 "adjusted_concurrency": 1
             }
         }
@@ -915,16 +915,220 @@
         "iteration": 1,
         "metrics": {
             "total_requests": 3,
-            "successful": 2,
-            "failed": 1,
-            "timeouts": 1,
-            "total_time_ms": 2020
+            "successful": 1,
+            "failed": 2,
+            "timeouts": 2,
+            "total_time_ms": 2004
         }
     },
     {
         "scenario": "C",
         "strategy": "fixed",
         "iteration": 2,
+        "metrics": {
+            "total_requests": 3,
+            "successful": 2,
+            "failed": 1,
+            "timeouts": 0,
+            "total_time_ms": 1344
+        }
+    },
+    {
+        "scenario": "C",
+        "strategy": "fixed",
+        "iteration": 3,
+        "metrics": {
+            "total_requests": 3,
+            "successful": 1,
+            "failed": 2,
+            "timeouts": 1,
+            "total_time_ms": 2002
+        }
+    },
+    {
+        "scenario": "C",
+        "strategy": "fixed",
+        "iteration": 4,
+        "metrics": {
+            "total_requests": 3,
+            "successful": 1,
+            "failed": 2,
+            "timeouts": 2,
+            "total_time_ms": 2001
+        }
+    },
+    {
+        "scenario": "C",
+        "strategy": "fixed",
+        "iteration": 5,
+        "metrics": {
+            "total_requests": 3,
+            "successful": 2,
+            "failed": 1,
+            "timeouts": 1,
+            "total_time_ms": 1995
+        }
+    },
+    {
+        "scenario": "C",
+        "strategy": "fixed",
+        "iteration": 6,
+        "metrics": {
+            "total_requests": 3,
+            "successful": 2,
+            "failed": 1,
+            "timeouts": 1,
+            "total_time_ms": 1998
+        }
+    },
+    {
+        "scenario": "C",
+        "strategy": "fixed",
+        "iteration": 7,
+        "metrics": {
+            "total_requests": 3,
+            "successful": 1,
+            "failed": 2,
+            "timeouts": 1,
+            "total_time_ms": 1989
+        }
+    },
+    {
+        "scenario": "C",
+        "strategy": "fixed",
+        "iteration": 8,
+        "metrics": {
+            "total_requests": 3,
+            "successful": 3,
+            "failed": 0,
+            "timeouts": 0,
+            "total_time_ms": 1944
+        }
+    },
+    {
+        "scenario": "C",
+        "strategy": "fixed",
+        "iteration": 9,
+        "metrics": {
+            "total_requests": 3,
+            "successful": 2,
+            "failed": 1,
+            "timeouts": 0,
+            "total_time_ms": 1910
+        }
+    },
+    {
+        "scenario": "C",
+        "strategy": "fixed",
+        "iteration": 10,
+        "metrics": {
+            "total_requests": 3,
+            "successful": 1,
+            "failed": 2,
+            "timeouts": 2,
+            "total_time_ms": 1998
+        }
+    },
+    {
+        "scenario": "C",
+        "strategy": "timeout_race",
+        "iteration": 1,
+        "metrics": {
+            "total_requests": 3,
+            "successful": 1,
+            "failed": 2,
+            "timeouts": 2,
+            "total_time_ms": 2019
+        }
+    },
+    {
+        "scenario": "C",
+        "strategy": "timeout_race",
+        "iteration": 2,
+        "metrics": {
+            "total_requests": 3,
+            "successful": 2,
+            "failed": 1,
+            "timeouts": 1,
+            "total_time_ms": 1992
+        }
+    },
+    {
+        "scenario": "C",
+        "strategy": "timeout_race",
+        "iteration": 3,
+        "metrics": {
+            "total_requests": 3,
+            "successful": 1,
+            "failed": 2,
+            "timeouts": 1,
+            "total_time_ms": 1993
+        }
+    },
+    {
+        "scenario": "C",
+        "strategy": "timeout_race",
+        "iteration": 4,
+        "metrics": {
+            "total_requests": 3,
+            "successful": 1,
+            "failed": 2,
+            "timeouts": 1,
+            "total_time_ms": 2000
+        }
+    },
+    {
+        "scenario": "C",
+        "strategy": "timeout_race",
+        "iteration": 5,
+        "metrics": {
+            "total_requests": 3,
+            "successful": 2,
+            "failed": 1,
+            "timeouts": 1,
+            "total_time_ms": 2019
+        }
+    },
+    {
+        "scenario": "C",
+        "strategy": "timeout_race",
+        "iteration": 6,
+        "metrics": {
+            "total_requests": 3,
+            "successful": 3,
+            "failed": 0,
+            "timeouts": 0,
+            "total_time_ms": 1644
+        }
+    },
+    {
+        "scenario": "C",
+        "strategy": "timeout_race",
+        "iteration": 7,
+        "metrics": {
+            "total_requests": 3,
+            "successful": 2,
+            "failed": 1,
+            "timeouts": 0,
+            "total_time_ms": 1594
+        }
+    },
+    {
+        "scenario": "C",
+        "strategy": "timeout_race",
+        "iteration": 8,
+        "metrics": {
+            "total_requests": 3,
+            "successful": 2,
+            "failed": 1,
+            "timeouts": 1,
+            "total_time_ms": 2014
+        }
+    },
+    {
+        "scenario": "C",
+        "strategy": "timeout_race",
+        "iteration": 9,
         "metrics": {
             "total_requests": 3,
             "successful": 2,
@@ -935,218 +1139,14 @@
     },
     {
         "scenario": "C",
-        "strategy": "fixed",
-        "iteration": 3,
-        "metrics": {
-            "total_requests": 3,
-            "successful": 3,
-            "failed": 0,
-            "timeouts": 0,
-            "total_time_ms": 1657
-        }
-    },
-    {
-        "scenario": "C",
-        "strategy": "fixed",
-        "iteration": 4,
-        "metrics": {
-            "total_requests": 3,
-            "successful": 2,
-            "failed": 1,
-            "timeouts": 0,
-            "total_time_ms": 1914
-        }
-    },
-    {
-        "scenario": "C",
-        "strategy": "fixed",
-        "iteration": 5,
-        "metrics": {
-            "total_requests": 3,
-            "successful": 2,
-            "failed": 1,
-            "timeouts": 0,
-            "total_time_ms": 1347
-        }
-    },
-    {
-        "scenario": "C",
-        "strategy": "fixed",
-        "iteration": 6,
-        "metrics": {
-            "total_requests": 3,
-            "successful": 1,
-            "failed": 2,
-            "timeouts": 0,
-            "total_time_ms": 1574
-        }
-    },
-    {
-        "scenario": "C",
-        "strategy": "fixed",
-        "iteration": 7,
-        "metrics": {
-            "total_requests": 3,
-            "successful": 2,
-            "failed": 1,
-            "timeouts": 1,
-            "total_time_ms": 2012
-        }
-    },
-    {
-        "scenario": "C",
-        "strategy": "fixed",
-        "iteration": 8,
-        "metrics": {
-            "total_requests": 3,
-            "successful": 1,
-            "failed": 2,
-            "timeouts": 2,
-            "total_time_ms": 2002
-        }
-    },
-    {
-        "scenario": "C",
-        "strategy": "fixed",
-        "iteration": 9,
-        "metrics": {
-            "total_requests": 3,
-            "successful": 1,
-            "failed": 2,
-            "timeouts": 1,
-            "total_time_ms": 2004
-        }
-    },
-    {
-        "scenario": "C",
-        "strategy": "fixed",
-        "iteration": 10,
-        "metrics": {
-            "total_requests": 3,
-            "successful": 2,
-            "failed": 1,
-            "timeouts": 1,
-            "total_time_ms": 2021
-        }
-    },
-    {
-        "scenario": "C",
-        "strategy": "timeout_race",
-        "iteration": 1,
-        "metrics": {
-            "total_requests": 3,
-            "successful": 3,
-            "failed": 0,
-            "timeouts": 0,
-            "total_time_ms": 1836
-        }
-    },
-    {
-        "scenario": "C",
-        "strategy": "timeout_race",
-        "iteration": 2,
-        "metrics": {
-            "total_requests": 3,
-            "successful": 1,
-            "failed": 2,
-            "timeouts": 1,
-            "total_time_ms": 1987
-        }
-    },
-    {
-        "scenario": "C",
-        "strategy": "timeout_race",
-        "iteration": 3,
-        "metrics": {
-            "total_requests": 3,
-            "successful": 2,
-            "failed": 1,
-            "timeouts": 1,
-            "total_time_ms": 1994
-        }
-    },
-    {
-        "scenario": "C",
-        "strategy": "timeout_race",
-        "iteration": 4,
-        "metrics": {
-            "total_requests": 3,
-            "successful": 3,
-            "failed": 0,
-            "timeouts": 0,
-            "total_time_ms": 1724
-        }
-    },
-    {
-        "scenario": "C",
-        "strategy": "timeout_race",
-        "iteration": 5,
-        "metrics": {
-            "total_requests": 3,
-            "successful": 1,
-            "failed": 2,
-            "timeouts": 1,
-            "total_time_ms": 2005
-        }
-    },
-    {
-        "scenario": "C",
-        "strategy": "timeout_race",
-        "iteration": 6,
-        "metrics": {
-            "total_requests": 3,
-            "successful": 1,
-            "failed": 2,
-            "timeouts": 0,
-            "total_time_ms": 1624
-        }
-    },
-    {
-        "scenario": "C",
-        "strategy": "timeout_race",
-        "iteration": 7,
-        "metrics": {
-            "total_requests": 3,
-            "successful": 1,
-            "failed": 2,
-            "timeouts": 0,
-            "total_time_ms": 1633
-        }
-    },
-    {
-        "scenario": "C",
-        "strategy": "timeout_race",
-        "iteration": 8,
-        "metrics": {
-            "total_requests": 3,
-            "successful": 1,
-            "failed": 2,
-            "timeouts": 2,
-            "total_time_ms": 1993
-        }
-    },
-    {
-        "scenario": "C",
-        "strategy": "timeout_race",
-        "iteration": 9,
-        "metrics": {
-            "total_requests": 3,
-            "successful": 1,
-            "failed": 2,
-            "timeouts": 2,
-            "total_time_ms": 1982
-        }
-    },
-    {
-        "scenario": "C",
         "strategy": "timeout_race",
         "iteration": 10,
         "metrics": {
             "total_requests": 3,
             "successful": 1,
             "failed": 2,
-            "timeouts": 1,
-            "total_time_ms": 2013
+            "timeouts": 0,
+            "total_time_ms": 1666
         }
     },
     {
@@ -1155,83 +1155,25 @@
         "iteration": 1,
         "metrics": {
             "total_requests": 3,
-            "successful": 3,
-            "failed": 0,
-            "timeouts": 0,
-            "total_time_ms": 1527
-        },
-        "adaptive_stats": {
-            "127.0.0.1:9001": {
-                "success_rate": 1.0,
-                "avg_ms": 116.85,
-                "adjusted_concurrency": 3
-            },
-            "127.0.0.1:9002": {
-                "success_rate": 0.0,
-                "avg_ms": 2001.4,
-                "adjusted_concurrency": 1
-            },
-            "127.0.0.1:9003": {
-                "success_rate": 1.0,
-                "avg_ms": 916.0,
-                "adjusted_concurrency": 3
-            }
-        }
-    },
-    {
-        "scenario": "C",
-        "strategy": "adaptive",
-        "iteration": 2,
-        "metrics": {
-            "total_requests": 3,
-            "successful": 2,
-            "failed": 1,
-            "timeouts": 0,
-            "total_time_ms": 1676
-        },
-        "adaptive_stats": {
-            "127.0.0.1:9001": {
-                "success_rate": 1.0,
-                "avg_ms": 118.1,
-                "adjusted_concurrency": 3
-            },
-            "127.0.0.1:9002": {
-                "success_rate": 0.0,
-                "avg_ms": 2001.4,
-                "adjusted_concurrency": 1
-            },
-            "127.0.0.1:9003": {
-                "success_rate": 0.75,
-                "avg_ms": 1212.25,
-                "adjusted_concurrency": 3
-            }
-        }
-    },
-    {
-        "scenario": "C",
-        "strategy": "adaptive",
-        "iteration": 3,
-        "metrics": {
-            "total_requests": 3,
             "successful": 1,
             "failed": 2,
-            "timeouts": 2,
-            "total_time_ms": 2167
+            "timeouts": 1,
+            "total_time_ms": 2124
         },
         "adaptive_stats": {
             "127.0.0.1:9001": {
                 "success_rate": 1.0,
-                "avg_ms": 121.85,
+                "avg_ms": 134.8,
                 "adjusted_concurrency": 3
             },
             "127.0.0.1:9002": {
                 "success_rate": 0.0,
-                "avg_ms": 2001.4,
+                "avg_ms": 2002.7,
                 "adjusted_concurrency": 1
             },
             "127.0.0.1:9003": {
-                "success_rate": 0.5,
-                "avg_ms": 1474.17,
+                "success_rate": 0.0,
+                "avg_ms": 1094.0,
                 "adjusted_concurrency": 2
             }
         }
@@ -1239,28 +1181,86 @@
     {
         "scenario": "C",
         "strategy": "adaptive",
+        "iteration": 2,
+        "metrics": {
+            "total_requests": 3,
+            "successful": 1,
+            "failed": 2,
+            "timeouts": 2,
+            "total_time_ms": 2135
+        },
+        "adaptive_stats": {
+            "127.0.0.1:9001": {
+                "success_rate": 1.0,
+                "avg_ms": 132.8,
+                "adjusted_concurrency": 3
+            },
+            "127.0.0.1:9002": {
+                "success_rate": 0.0,
+                "avg_ms": 2002.7,
+                "adjusted_concurrency": 1
+            },
+            "127.0.0.1:9003": {
+                "success_rate": 0.0,
+                "avg_ms": 1542.75,
+                "adjusted_concurrency": 1
+            }
+        }
+    },
+    {
+        "scenario": "C",
+        "strategy": "adaptive",
+        "iteration": 3,
+        "metrics": {
+            "total_requests": 3,
+            "successful": 3,
+            "failed": 0,
+            "timeouts": 0,
+            "total_time_ms": 2113
+        },
+        "adaptive_stats": {
+            "127.0.0.1:9001": {
+                "success_rate": 1.0,
+                "avg_ms": 135.25,
+                "adjusted_concurrency": 3
+            },
+            "127.0.0.1:9002": {
+                "success_rate": 0.0,
+                "avg_ms": 2002.7,
+                "adjusted_concurrency": 1
+            },
+            "127.0.0.1:9003": {
+                "success_rate": 0.33,
+                "avg_ms": 1362.17,
+                "adjusted_concurrency": 1
+            }
+        }
+    },
+    {
+        "scenario": "C",
+        "strategy": "adaptive",
         "iteration": 4,
         "metrics": {
             "total_requests": 3,
             "successful": 2,
             "failed": 1,
-            "timeouts": 1,
-            "total_time_ms": 2150
+            "timeouts": 0,
+            "total_time_ms": 1740
         },
         "adaptive_stats": {
             "127.0.0.1:9001": {
                 "success_rate": 1.0,
-                "avg_ms": 124.4,
+                "avg_ms": 137.45,
                 "adjusted_concurrency": 3
             },
             "127.0.0.1:9002": {
                 "success_rate": 0.0,
-                "avg_ms": 2001.4,
+                "avg_ms": 2002.7,
                 "adjusted_concurrency": 1
             },
             "127.0.0.1:9003": {
-                "success_rate": 0.5,
-                "avg_ms": 1392.38,
+                "success_rate": 0.38,
+                "avg_ms": 1218.88,
                 "adjusted_concurrency": 1
             }
         }
@@ -1271,25 +1271,25 @@
         "iteration": 5,
         "metrics": {
             "total_requests": 3,
-            "successful": 2,
-            "failed": 1,
+            "successful": 3,
+            "failed": 0,
             "timeouts": 0,
-            "total_time_ms": 3270
+            "total_time_ms": 2662
         },
         "adaptive_stats": {
             "127.0.0.1:9001": {
                 "success_rate": 1.0,
-                "avg_ms": 124.75,
+                "avg_ms": 141.35,
                 "adjusted_concurrency": 3
             },
             "127.0.0.1:9002": {
                 "success_rate": 0.0,
-                "avg_ms": 2001.4,
+                "avg_ms": 2002.7,
                 "adjusted_concurrency": 1
             },
             "127.0.0.1:9003": {
                 "success_rate": 0.5,
-                "avg_ms": 1433.8,
+                "avg_ms": 1225.6,
                 "adjusted_concurrency": 1
             }
         }
@@ -1303,22 +1303,22 @@
             "successful": 2,
             "failed": 1,
             "timeouts": 0,
-            "total_time_ms": 1968
+            "total_time_ms": 3446
         },
         "adaptive_stats": {
             "127.0.0.1:9001": {
                 "success_rate": 1.0,
-                "avg_ms": 126.0,
+                "avg_ms": 137.75,
                 "adjusted_concurrency": 3
             },
             "127.0.0.1:9002": {
                 "success_rate": 0.0,
-                "avg_ms": 2001.4,
+                "avg_ms": 2002.7,
                 "adjusted_concurrency": 1
             },
             "127.0.0.1:9003": {
                 "success_rate": 0.5,
-                "avg_ms": 1342.33,
+                "avg_ms": 1296.5,
                 "adjusted_concurrency": 1
             }
         }
@@ -1329,25 +1329,25 @@
         "iteration": 7,
         "metrics": {
             "total_requests": 3,
-            "successful": 2,
-            "failed": 1,
-            "timeouts": 0,
-            "total_time_ms": 1581
+            "successful": 1,
+            "failed": 2,
+            "timeouts": 1,
+            "total_time_ms": 3463
         },
         "adaptive_stats": {
             "127.0.0.1:9001": {
                 "success_rate": 1.0,
-                "avg_ms": 121.95,
+                "avg_ms": 138.55,
                 "adjusted_concurrency": 3
             },
             "127.0.0.1:9002": {
                 "success_rate": 0.0,
-                "avg_ms": 2001.4,
+                "avg_ms": 2002.7,
                 "adjusted_concurrency": 1
             },
             "127.0.0.1:9003": {
-                "success_rate": 0.5,
-                "avg_ms": 1258.0,
+                "success_rate": 0.43,
+                "avg_ms": 1350.71,
                 "adjusted_concurrency": 1
             }
         }
@@ -1358,25 +1358,25 @@
         "iteration": 8,
         "metrics": {
             "total_requests": 3,
-            "successful": 1,
-            "failed": 2,
+            "successful": 2,
+            "failed": 1,
             "timeouts": 0,
-            "total_time_ms": 2735
+            "total_time_ms": 1852
         },
         "adaptive_stats": {
             "127.0.0.1:9001": {
                 "success_rate": 1.0,
-                "avg_ms": 120.7,
+                "avg_ms": 137.75,
                 "adjusted_concurrency": 3
             },
             "127.0.0.1:9002": {
                 "success_rate": 0.0,
-                "avg_ms": 2001.4,
+                "avg_ms": 2002.7,
                 "adjusted_concurrency": 1
             },
             "127.0.0.1:9003": {
                 "success_rate": 0.44,
-                "avg_ms": 1263.31,
+                "avg_ms": 1290.56,
                 "adjusted_concurrency": 1
             }
         }
@@ -1387,25 +1387,25 @@
         "iteration": 9,
         "metrics": {
             "total_requests": 3,
-            "successful": 3,
-            "failed": 0,
+            "successful": 1,
+            "failed": 2,
             "timeouts": 0,
-            "total_time_ms": 2904
+            "total_time_ms": 2778
         },
         "adaptive_stats": {
             "127.0.0.1:9001": {
                 "success_rate": 1.0,
-                "avg_ms": 117.3,
+                "avg_ms": 139.95,
                 "adjusted_concurrency": 3
             },
             "127.0.0.1:9002": {
                 "success_rate": 0.0,
-                "avg_ms": 2001.4,
+                "avg_ms": 2002.7,
                 "adjusted_concurrency": 1
             },
             "127.0.0.1:9003": {
-                "success_rate": 0.5,
-                "avg_ms": 1280.94,
+                "success_rate": 0.39,
+                "avg_ms": 1290.17,
                 "adjusted_concurrency": 1
             }
         }
@@ -1419,22 +1419,22 @@
             "successful": 2,
             "failed": 1,
             "timeouts": 1,
-            "total_time_ms": 2940
+            "total_time_ms": 4037
         },
         "adaptive_stats": {
             "127.0.0.1:9001": {
                 "success_rate": 1.0,
-                "avg_ms": 111.1,
+                "avg_ms": 135.55,
                 "adjusted_concurrency": 3
             },
             "127.0.0.1:9002": {
                 "success_rate": 0.0,
-                "avg_ms": 2001.4,
+                "avg_ms": 2002.7,
                 "adjusted_concurrency": 1
             },
             "127.0.0.1:9003": {
-                "success_rate": 0.5,
-                "avg_ms": 1295.8,
+                "success_rate": 0.4,
+                "avg_ms": 1357.8,
                 "adjusted_concurrency": 1
             }
         }
