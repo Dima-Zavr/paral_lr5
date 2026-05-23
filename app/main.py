@@ -1,18 +1,19 @@
-import asyncio
 import time
 import uuid
 
-import aiohttp
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from typing import List, Optional
+
+from app.strategies.fixed import fixed_strategy
+from app.strategies.timeout_race import timeout_race_strategy
 
 
 app = FastAPI()
 
 
 # =========================
-# МОДЕЛИ ЗАПРОСА/ОТВЕТА
+# МОДЕЛЬ ЗАПРОСА
 # =========================
 
 class AggregateRequest(BaseModel):
@@ -23,49 +24,7 @@ class AggregateRequest(BaseModel):
 
 
 # =========================
-# ФУНКЦИЯ ОТПРАВКИ ЗАПРОСА
-# =========================
-
-async def fetch_url(session: aiohttp.ClientSession, url: str, timeout_sec: int):
-    start_time = time.perf_counter()
-
-    try:
-        async with session.get(url, timeout=timeout_sec) as response:
-            elapsed_ms = int((time.perf_counter() - start_time) * 1000)
-
-            try:
-                data = await response.json()
-            except:
-                data = await response.text()
-
-            return {
-                "url": url,
-                "status": response.status,
-                "data": data,
-                "elapsed_ms": elapsed_ms
-            }
-
-    except asyncio.TimeoutError:
-        elapsed_ms = int((time.perf_counter() - start_time) * 1000)
-
-        return {
-            "url": url,
-            "timeout": True,
-            "elapsed_ms": elapsed_ms
-        }
-
-    except Exception as e:
-        elapsed_ms = int((time.perf_counter() - start_time) * 1000)
-
-        return {
-            "url": url,
-            "error": str(e),
-            "elapsed_ms": elapsed_ms
-        }
-
-
-# =========================
-# ENDPOINT АГРЕГАЦИИ
+# ENDPOINT
 # =========================
 
 @app.post("/aggregate")
@@ -75,18 +34,44 @@ async def aggregate(request: AggregateRequest):
 
     total_start = time.perf_counter()
 
-    async with aiohttp.ClientSession() as session:
+    # =========================
+    # ВЫБОР СТРАТЕГИИ
+    # =========================
 
-        tasks = [
-            fetch_url(session, url, request.timeout_sec)
-            for url in request.urls
-        ]
+    if request.strategy == "fixed":
 
-        results = await asyncio.gather(*tasks)
+        results = await fixed_strategy(
+            urls=request.urls,
+            max_concurrent=request.max_concurrent,
+            timeout_sec=request.timeout_sec
+        )
 
-    total_time_ms = int((time.perf_counter() - total_start) * 1000)
+    elif request.strategy == "timeout_race":
 
-    successful = sum(1 for r in results if r.get("status") == 200)
+        results = await timeout_race_strategy(
+            urls=request.urls,
+            timeout_sec=request.timeout_sec
+        )
+
+    else:
+        raise HTTPException(
+            status_code=400,
+            detail=f"Unknown strategy: {request.strategy}"
+        )
+
+    # =========================
+    # SUMMARY
+    # =========================
+
+    total_time_ms = int(
+        (time.perf_counter() - total_start) * 1000
+    )
+
+    successful = sum(
+        1 for r in results
+        if r.get("status") == 200
+    )
+
     failed = len(results) - successful
 
     return {
@@ -98,6 +83,6 @@ async def aggregate(request: AggregateRequest):
             "failed": failed,
             "total_time_ms": total_time_ms,
             "strategy_used": request.strategy,
-            "concurrent_used": len(request.urls)
+            "concurrent_used": request.max_concurrent
         }
     }
