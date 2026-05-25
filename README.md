@@ -31,7 +31,7 @@ python -m venv venv
 
 ### Вход в виртуальное окружение
 ```
-venv\Scripts\activate
+source venv/Scripts/activate
 ```
 
 ### Установка зависимостей
